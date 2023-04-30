@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frame_border"
+        android:layout_width="188px"
+        android:layout_height="220px"
+        android:background="@drawable/src_frame_image_border"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgFilterView"
+            android:layout_width="174px"
+            android:layout_height="206px"
+            android:scaleType="centerCrop"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/txtFilterName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#90000000"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="@android:color/white"
+            android:textSize="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgFilterView"
+            app:layout_constraintEnd_toEndOf="@+id/imgFilterView"
+            app:layout_constraintStart_toStartOf="@+id/imgFilterView"
+            tools:text="@tools:sample/full_names" />
+
+        <ImageView
+            android:id="@+id/selectedFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:src="@drawable/src_frame_image_border_press"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

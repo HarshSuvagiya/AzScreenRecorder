@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#fff</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
+    <color name="purple_200">#003F87</color>
+    <color name="purple_500">#003F87</color>
+    <color name="purple_700">#003F87</color>
+    <color name="blue">#0D448B</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="tabSelectedIconColor">#002364</color>
+    <color name="tabUnselectedIconColor">#FF9C94</color>
+    <color name="grey">#929292</color>
+    <color name="red">#AEDD473C</color>
+    <color name="black_trans">#92000000</color>
+
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+    <color name="tool_bg">#151414</color>
+    <color name="txt_color">#3b3b3b</color>
+    <color name="semi_black_transparent">#99000000</color>
+
+    <color name="orange">#FF894C</color>
+    <color name="gray">#393939</color>
+    <color name="fillsplash">#FF604E</color>
+    <color name="unfillsplash">#F0CEC5</color>
+
+    <color name="ExitGrayAlpha">#E6000000</color>
+</resources>

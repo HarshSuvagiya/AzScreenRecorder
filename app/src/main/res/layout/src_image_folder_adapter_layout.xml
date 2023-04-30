@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="wrap_content">
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:cardCornerRadius="10dp"-->
+<!--        app:cardElevation="5dp">-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/folderBorder"
+        android:layout_width="480px"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/src_folder_border"
+        android:layout_height="460px">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="478px"
+                android:layout_height="458px"
+                android:padding="@dimen/_2sdp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/text_Bar"
+                android:layout_width="478px"
+                android:layout_height="110px"
+                android:background="@drawable/src_text_bar"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <TextView
+                    android:id="@+id/bucketName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="123"
+                    android:layout_weight="2"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:layout_gravity="center_vertical"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/arial"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:textSize="16dp" />
+                <TextView
+                    android:id="@+id/bucketSize"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:gravity="right"
+                    android:fontFamily="@font/arial"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

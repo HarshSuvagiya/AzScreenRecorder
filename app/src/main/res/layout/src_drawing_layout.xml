@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:pikolo="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.divyanshu.draw.widget.DrawView
+        android:id="@+id/draw_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/drawing_controls"
+        android:layout_marginLeft="150dp"
+        android:background="@color/sky_blue_color_picker"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/snapshot"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/src_bd_camera_click"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/view1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/src_bd_line"
+            app:layout_constraintLeft_toRightOf="@+id/snapshot"
+            app:layout_constraintRight_toLeftOf="@id/changeColor"/>
+
+        <ImageView
+            android:id="@+id/changeColor"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/src_bd_brush_click"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/view1"
+            app:layout_constraintRight_toLeftOf="@id/view2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/src_bd_line"
+            app:layout_constraintLeft_toRightOf="@+id/changeColor"
+            app:layout_constraintRight_toLeftOf="@id/undo"/>
+
+        <ImageView
+            android:id="@+id/undo"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/src_bd_undo_click"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/view2"
+            app:layout_constraintRight_toLeftOf="@id/view3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/src_bd_line"
+            app:layout_constraintLeft_toRightOf="@+id/undo"
+            app:layout_constraintRight_toLeftOf="@id/redo"/>
+
+        <ImageView
+            android:id="@+id/redo"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/src_bd_redo_click"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/view3"
+            app:layout_constraintRight_toLeftOf="@id/view4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/src_bd_line"
+            app:layout_constraintLeft_toRightOf="@+id/redo"
+            app:layout_constraintRight_toLeftOf="@id/delete"/>
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/src_bd_delete_click"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/view4"
+            app:layout_constraintRight_toLeftOf="@id/view5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/src_bd_line"
+            app:layout_constraintLeft_toRightOf="@+id/delete"
+            app:layout_constraintRight_toLeftOf="@id/close"/>
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/src_bd_close_click"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/delete"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/colorPicker"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/src_bt_footer"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/sizeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size"
+                android:textColor="@color/white"
+                android:fontFamily="@font/arial"
+                android:textSize="18dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SeekBar
+                android:id="@+id/strokeSeekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:max="50"
+                android:progress="10"
+                android:progressTint="@color/white"
+                android:thumbTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="@id/sizeTextView"
+                app:layout_constraintLeft_toRightOf="@id/sizeTextView"
+                app:layout_constraintRight_toLeftOf="@+id/closeColorPicker"
+                app:layout_constraintTop_toTopOf="@id/sizeTextView" />
+
+            <ImageView
+                android:id="@+id/closeColorPicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_close_white_24dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.divyanshu.colorseekbar.ColorSeekBar
+                android:id="@+id/color_seek_bar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sizeTextView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

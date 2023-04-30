@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/add_audio_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/add_text_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/allow_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/exit_state.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/gallery_click.xml" value="0.22135416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/lt_splashseek.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/my_btn_toggle.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/next_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/popup_item_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/rotate180_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/rotate270_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/rotate90_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/s_close_click.xml" value="0.23072916666666668" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/s_done_click.xml" value="0.23072916666666668" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/s_edit_click.xml" value="0.23072916666666668" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/src_other_export_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/stitch_done_click.xml" value="0.23072916666666668" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable-nodpi/v_compress_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/audio_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/back_click.xml" value="0.36944444444444446" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/bd_brush_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/bd_camera_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/bd_close_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/bd_delete_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/bd_redo_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/bd_undo_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/bg_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/brush_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/c_done_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/compress_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/crop_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/edit_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/emoji_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/eraser_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/export_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/f_home_click.xml" value="0.36875" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/f_setting_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/filter_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/g_next_click.xml" value="0.36875" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/ic_edit_black_24dp.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/n_close_click.xml" value="0.22135416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/n_home_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/n_setting_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/no_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/p_delete_click.xml" value="0.36875" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/p_share_click.xml" value="0.36875" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/policy_click.xml" value="0.36944444444444446" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/rate_click.xml" value="0.36944444444444446" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/redo_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/rotate_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/save_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/screenshot_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/setting_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/share_click.xml" value="0.36944444444444446" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/start_click.xml" value="0.36944444444444446" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/sticker_border_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/sticker_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/text_click.xml" value="0.3630769230769231" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/text_click_image.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/undo_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/video_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/drawable/yes_click.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/font/roboto_medium.xml" value="0.25625" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_after_notification.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_edit_image.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_exit.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_grant_overlay_permission.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_image_folder.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_image_folder_detail.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_screenshot_preview.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_start.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_stitch_image.xml" value="0.21458333333333332" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_stop_options.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_text_and_logo.xml" value="0.22" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_video_edit.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/activity_video_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/add_floating_text_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/add_text_dialog.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/brush_floating_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/color_picker_item_list.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/configuration_popup.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/configuration_popup_adapter_layout.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/count_down_timer_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/count_down_window_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/delete_dialog.xml" value="0.5" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/drawing_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/floating_logo_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/floating_text_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/floating_textview.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/fragment_add_audio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/fragment_add_background.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/fragment_bottom_emoji_dialog.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/fragment_bottom_properties_dialog.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/fragment_bottom_sticker_dialog.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/fragment_compress_video.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/fragment_crop_and_trim.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/fragment_rotate_video.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/fragment_screenshot.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/fragment_text_sticker.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/fragment_videos.xml" value="0.2" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/layout_floating_camera_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/logo_resizer_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/main_layout.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/no_internet_dialog.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/recording_adapter_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/remove_floating_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/row_editing_tools.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/row_filter_view.xml" value="0.21458333333333332" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/row_sticker.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/screen_recording_floating_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/screen_recording_home_intent_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/screen_recording_settingslayout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/screen_recording_start_stop_play_pause_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/screenshot_adapter_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/screenshot_floating_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/selected_image_layout.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/show_preview_popup.xml" value="0.21458333333333332" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_activity_after_notification.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_activity_edit_image.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_activity_exit.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_activity_image_folder_detail.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_activity_screenshot_preview.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_activity_splash.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_activity_video_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_drawing_layout.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_fragment_crop_and_trim.xml" value="0.20885416666666667" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_fragment_screenshot.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_fragment_settings.xml" value="0.2796296296296296" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_image_view_for_view_pager.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_row_emoji.xml" value="0.21458333333333332" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/src_screenshot_adapter_layout.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/toolbox_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/app/src/main/res/layout/video_bg_adapter_layout.xml" value="0.21458333333333332" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/photoeditor/src/main/res/drawable/rounded_border_tv.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/photoeditor/src/main/res/layout/view_photo_editor_image.xml" value="0.35260416666666666" />
+        <entry key="..\:/Projects/Android_Studio_Projects/Scorpion/FINAL PROJECTS/AZScreenRecorder/photoeditor/src/main/res/layout/view_photo_editor_text.xml" value="0.35260416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="AzScreenRecorder.app" />
+      </set>
+    </option>
+  </component>
+</project>

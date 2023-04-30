@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_padding">16dp</dimen>
+    <dimen name="_2sdp">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="editor_size">35dp</dimen>
+    <dimen name="normal_margin">8dp</dimen>
+    <dimen name="large_margin">16dp</dimen>
+    <dimen name="top_tool_icon_width">50dp</dimen>
+    <dimen name="default_margin">20dp</dimen>
+</resources>

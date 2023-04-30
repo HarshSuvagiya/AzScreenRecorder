@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.scorpion.screenrecorder">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <!--    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_TYPE_MEDIA_PROJECTION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".SRC_MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AzScreenRecorder"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activity.SRC_SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/YOUR_ADMOB_APP_ID" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".activity.SRC_ExitActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".activity.SRC_PrivacyPolicy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SRC_VideoEditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SRC_StitchImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SRC_ImageFolderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SRC_ImageFolderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SRC_VideoViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SRC_TextAndLogoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".activity.SRC_StopOptionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SRC_BaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SRC_GrantOverlayPermissionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SRC_ScreenshotPreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SRC_StartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SRC_MainActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".service.SRC_ScreenshotFloatingButtonService"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="mediaProjection | microphone"
+            android:stopWithTask="false">
+
+        </service>
+        <service
+            android:name=".service.SRC_FloatingCameraViewService"
+            android:configChanges="orientation"
+            android:exported="false" />
+
+        <receiver android:name=".receiver.SRC_ScreenReceiver">
+            <intent-filter>
+                <action android:name="com.mycompany.myapp.SOME_MESSAGE2" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <activity
+            android:name=".imageeditor.SRC_EditImageActivity"
+            android:screenOrientation="portrait">
+            <intent-filter
+                android:label="@string/app_intent_name"
+                android:scheme="file"
+                tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

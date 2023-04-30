@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_25sdp"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@color/gray"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/item"
+            android:layout_width="244px"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:background="@drawable/src_popup_item_click"/>
+    </LinearLayout>
+
+</LinearLayout>

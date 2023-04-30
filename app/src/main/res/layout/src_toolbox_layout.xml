@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="280dp"
+    android:background="@drawable/src_tool_popup">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arialbd"
+            android:text="Recording Toolbox"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/closeToolbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_close_24"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/screenShotIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/src_tool_screenshot_icon"
+            app:layout_constraintBottom_toTopOf="@id/cameraIcon"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title" />
+
+        <TextView
+            android:id="@+id/screenShotTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/arial"
+            android:text="Screenshot"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="@id/screenShotIcon"
+            app:layout_constraintLeft_toRightOf="@id/screenShotIcon"
+            app:layout_constraintTop_toTopOf="@id/screenShotIcon" />
+
+        <Switch
+            android:id="@+id/screenShotSwitch"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:background="@drawable/src_my_btn_toggle"
+            android:thumb="@null"
+            app:layout_constraintBottom_toBottomOf="@id/screenShotTV"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/screenShotTV" />
+
+        <ImageView
+            android:id="@+id/cameraIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/src_tool_camera_icon"
+            app:layout_constraintBottom_toTopOf="@id/brushIcon"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/screenShotIcon" />
+
+        <TextView
+            android:id="@+id/cameraTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/arial"
+            android:text="Camera"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="@id/cameraIcon"
+            app:layout_constraintLeft_toRightOf="@id/cameraIcon"
+            app:layout_constraintTop_toTopOf="@id/cameraIcon" />
+
+        <Switch
+            android:id="@+id/cameraSwitch"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:background="@drawable/src_my_btn_toggle"
+            android:thumb="@null"
+            app:layout_constraintBottom_toBottomOf="@id/cameraTV"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/cameraTV" />
+
+        <ImageView
+            android:id="@+id/brushIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/src_tool_brush_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cameraIcon" />
+
+        <TextView
+            android:id="@+id/brushTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/arial"
+            android:text="Brush"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="@id/brushIcon"
+            app:layout_constraintLeft_toRightOf="@id/brushIcon"
+            app:layout_constraintTop_toTopOf="@id/brushIcon" />
+
+        <Switch
+            android:id="@+id/brushSwitch"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:background="@drawable/src_my_btn_toggle"
+            android:thumb="@null"
+            app:layout_constraintBottom_toBottomOf="@id/brushTV"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/brushTV" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

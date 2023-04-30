@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <!-- width x height -->
+    <string-array name="video_resolutions">
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+    </string-array>
+
+    <!-- video bitrate (kbps) -->
+    <string-array name="video_bitrates">
+        <item>4200k Hz</item>
+        <item>5200k Hz</item>
+        <item>6200k Hz</item>
+        <item>7200k Hz</item>
+        <item>8200k Hz</item>
+    </string-array>
+    <string-array name="video_framerates">
+        <item>15 FPS</item>
+        <item>25 FPS</item>
+        <item>30 FPS</item>
+        <item>60 FPS</item>
+        <item>90 FPS</item>
+        <item>120 FPS</item>
+    </string-array>
+    <string-array name="audio_bitrates">
+        <item>80 kbps</item>
+        <item>160 kbps</item>
+        <item>240 kbps</item>
+        <item>320 kbps</item>
+        <item>400 kbps</item>
+        <item>480 kbps</item>
+        <item>510 kbps</item>
+    </string-array>
+    <string-array name="audio_samplerates">
+        <item>8000 Hz</item>
+        <item>11025 Hz</item>
+        <item>12000 Hz</item>
+        <item>16000 Hz</item>
+        <item>22050 Hz</item>
+        <item>24000 Hz</item>
+        <item>34050 Hz</item>
+        <item>44100 Hz</item>
+        <item>48000 Hz</item>
+    </string-array>
+</resources>
