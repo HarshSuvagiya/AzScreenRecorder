@@ -1,7 +1,7 @@
 # AzScreenRecorder
 Simple screen recorder application with great editing options.
 
-Some feature listed over here:
+## Some feature listed over here:
 <ul>
 <li> Custom resolution for recording video</li>
 <li> Frame rate </li>
