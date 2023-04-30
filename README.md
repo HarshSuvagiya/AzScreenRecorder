@@ -12,7 +12,8 @@ Some feature listed over here:
 <li> Draw and highlight while recording</li>
 <li> In-built Image editor </li>
 <li> In-built Video editor </li>
-  
+</ul>
+
 ## Social Media
 
 <p align="left">
