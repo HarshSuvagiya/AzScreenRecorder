@@ -1,7 +1,7 @@
 # AzScreenRecorder
 Simple screen recorder application with great editing options.
 
-The KMPTemplate is designed to help developers build applications for three platforms:
+Some feature listed over here:
 <ul>
 <li> Custom resolution </li>
 <li> Frame rate </li>
