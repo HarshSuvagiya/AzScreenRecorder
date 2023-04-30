@@ -6,11 +6,13 @@ Some feature listed over here:
 <li> Custom resolution </li>
 <li> Frame rate </li>
 <li> Audio source </li>
-<li> Audio source </li>
+<li> Different ways to stop recording </li>
 <li> Screenshot </li>
 <li> Front Camera </li>
 <li> Draw and highlight </li>
-
+<li> In-built Image editor </li>
+<li> In-built Video editor </li>
+  
 ## Social Media
 
 <p align="left">
