@@ -3,13 +3,13 @@ Simple screen recorder application with great editing options.
 
 Some feature listed over here:
 <ul>
-<li> Custom resolution </li>
+<li> Custom resolution for recording video</li>
 <li> Frame rate </li>
 <li> Audio source </li>
 <li> Different ways to stop recording </li>
-<li> Screenshot </li>
-<li> Front Camera </li>
-<li> Draw and highlight </li>
+<li> Screenshot while recodign video</li>
+<li> Front Camera in popup mode while recording</li>
+<li> Draw and highlight while recording</li>
 <li> In-built Image editor </li>
 <li> In-built Video editor </li>
   
