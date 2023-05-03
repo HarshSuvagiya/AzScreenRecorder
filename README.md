@@ -1,6 +1,9 @@
 # AzScreenRecorder
 Simple screen recorder application with great editing options.
 
+## Screenshot
+<img src="01.jpg">
+
 ## Some feature listed over here:
 <ul>
 <li> Custom resolution for recording video</li>
